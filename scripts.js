@@ -8,7 +8,7 @@ const userNumberElement = document.querySelector("#userNumber"),
 
 userNumberElement.addEventListener("input", handleNumberInput);
 sendButton.addEventListener("click", guessNumber);
-
+resetButton.addEventListener("click", start);
 const minNumber = 0,
   maxNumber = 10,
   totalGuesses = 3;
